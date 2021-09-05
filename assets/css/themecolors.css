@@ -1,0 +1,139 @@
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+.exoFont{
+    font-family: 'Exo', sans-serif;
+}
+.tekoFont{
+    font-family: 'Teko', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{font-family:'Montserrat', sans-serif;}
+a,span,p,select,button,input,textarea,li,table{font-family:'Montserrat', sans-serif;}
+p{
+    font-size: 18px;
+    color: #474747;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+p:last-child{margin-bottom:0px;}
+
+.main-t{
+    font-size: 36px;
+    line-height: 41px;
+
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.sub-t{
+    font-size: 29px;
+    line-height: 34px;
+
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.small-t{
+    font-size: 20px;
+    line-height: 25px;
+
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.mini-t{
+    font-size: 18px;
+    line-height: 23px;
+
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.margin30{
+    margin-bottom: 30px;
+}
+.margin20{
+    margin-bottom: 20px;
+}
+.margin15{
+    margin-bottom: 15px;
+}
+.margin10{
+    margin-bottom: 10px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.blackFont{
+    color: #000000;
+}
+.darkFont{
+    color: #222222;
+}
+.orangeFont{
+    color: #FE911C;
+}
+.whiteFont{
+    color: #fff;
+}
+
+.bgWhite{
+    background: #fff;
+}
+
+.black{
+    font-weight: 900;
+}
+.bold,
+strong{
+    font-weight:bold;
+}
+.extrabold{
+    font-weight: 800;
+}
+.italic{
+    font-style: italic;
+}
+.medium{
+    font-weight: 500;
+}
+
+html,
+body{background: #fff;}
+
+
+#menu .dl-menu > li:hover > a,
+#menu .dl-menu > li.ativo > a{
+    color: #fff;
+}
+
+.fullW{
+    width: 100%;
+}
+
+.zoomEfct{
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.zoomEfct:hover{
+    transform: scale(1.1);
+
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+#mainPage{
+    background: #E5E5E5;
+}
+
+.letterSpacing{
+    letter-spacing: 0.05em;
+}
